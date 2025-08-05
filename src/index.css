@@ -1,0 +1,133 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+
+@layer base {
+  :root {
+    --background: 199 63% 34%;
+    --foreground: 44 92% 90%;
+
+    --card: 199 63% 34%;
+    --card-foreground: 44 92% 90%;
+
+    --popover: 199 63% 34%;
+    --popover-foreground: 44 92% 90%;
+
+    --primary: 189 54% 52%;
+    --primary-foreground: 44 92% 90%;
+
+    --secondary: 199 63% 30%;
+    --secondary-foreground: 44 92% 90%;
+
+    --muted: 199 63% 30%;
+    --muted-foreground: 44 92% 90%;
+
+    --accent: 199 63% 30%;
+    --accent-foreground: 44 92% 90%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 48 100% 90%;
+
+    --border: 199 40% 45%;
+    --input: 199 40% 45%;
+    --ring: 189 54% 52%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 199 63% 34%;
+    --sidebar-foreground: 48 100% 90%;
+    --sidebar-primary: 189 54% 52%;
+    --sidebar-primary-foreground: 48 100% 90%;
+    --sidebar-accent: 199 63% 30%;
+    --sidebar-accent-foreground: 48 100% 90%;
+    --sidebar-border: 199 40% 45%;
+    --sidebar-ring: 189 54% 52%;
+    
+    /* Custom palette colors */
+    --palette-red: 355 93% 38%;
+    --palette-gold: 34 42% 46%;
+    --palette-dark: 199 63% 34%;
+    --header-color: 48 88% 89%;
+    --paragraph-color: 225 35% 13%;
+  }
+
+  .dark {
+    --background: 199 63% 34%;
+    --foreground: 44 92% 90%;
+
+    --card: 199 63% 34%;
+    --card-foreground: 44 92% 90%;
+
+    --popover: 199 63% 34%;
+    --popover-foreground: 44 92% 90%;
+
+    --primary: 189 54% 52%;
+    --primary-foreground: 44 92% 90%;
+
+    --secondary: 199 63% 30%;
+    --secondary-foreground: 44 92% 90%;
+
+    --muted: 199 63% 30%;
+    --muted-foreground: 44 92% 90%;
+
+    --accent: 199 63% 30%;
+    --accent-foreground: 44 92% 90%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 48 100% 90%;
+
+    --border: 199 40% 45%;
+    --input: 199 40% 45%;
+    --ring: 189 54% 52%;
+    --sidebar-background: 199 63% 34%;
+    --sidebar-foreground: 48 100% 90%;
+    --sidebar-primary: 189 54% 52%;
+    --sidebar-primary-foreground: 48 100% 90%;
+    --sidebar-accent: 199 63% 30%;
+    --sidebar-accent-foreground: 48 100% 90%;
+    --sidebar-border: 199 40% 45%;
+    --sidebar-ring: 189 54% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer base {
+  /* For Webkit browsers (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar {
+    width: 8px; /* Adjust as needed for the small bar */
+    height: 8px; /* For horizontal scrollbars */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Make the track transparent */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* A very light, almost transparent color for the thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 2px solid transparent; /* Optional: Add a transparent border to make it thinner */
+    background-clip: content-box; /* Ensures the border doesn't affect the thumb's size */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.3); /* Slightly more visible on hover */
+  }
+
+  /* For Firefox */
+  html {
+    scrollbar-width: thin; /* "auto" or "none" */
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent; /* thumb color track color */
+  }
+}
