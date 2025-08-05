@@ -1,0 +1,58 @@
+/* loader.css */
+/* SVG loader made by: csozi | Website: www.csozi.hu */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #061229; /* match loader background */
+  overflow-x: hidden;
+}
+
+.loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #061229;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.8s ease-in-out;
+}
+
+.loader-wrapper.slide-up {
+  transform: translateY(-100vh);
+}
+
+.loader {
+  overflow: visible;
+  height: fit-content;
+  width: fit-content;
+  padding: 20px;
+  display: flex;
+}
+
+.logo {
+  fill: none;
+  stroke-dasharray: 20px;
+  stroke: white;
+  animation: load 15s infinite linear;
+}
+
+@keyframes load {
+  0% {
+    stroke-dashoffset: 0px;
+  }
+
+  100% {
+    stroke-dashoffset: 200px;
+  }
+}
+/* Hide Tawk.to chat while loader is active */
+body.loading #tawkchat-container,
+body.loading iframe[src*="tawk.to"] {
+  display: none !important;
+}

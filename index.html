@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mihajlo Raspopovic - Portfolio</title>
+    <meta name="description" content="Junior Full Stack Developer & Graphic Designer" />
+    <meta name="author" content="Mihajlo Raspopovic" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/loader.css" />
+
+    <meta property="og:title" content="Mihajlo Raspopovic - Portfolio" />
+    <meta property="og:description" content="Junior Full Stack Developer & Graphic Designer" />
+    <meta property="og:type" content="website" />
+
+    <script type="module" crossorigin src="/assets/index-BPsko3pJ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-pQRhAavY.css">
+  </head>
+
+  <body class="loading">
+    <div class="loader-wrapper" id="loader">
+  <div class="loader">
+    <svg
+  class="logo"
+  xmlns="http://www.w3.org/2000/svg"
+  width="150"
+  height="80"
+  viewBox="0 0 15.3 8.2"
+  fill="none"
+>
+  <g stroke="white" stroke-width="0.5">
+    <path d="M3.17,2.34L2.34,8.2H0L1.15,0H9.36L8.2,8.2H5.86l0.83-5.86H6.1L5.27,8.2H2.93l0.83-5.86Z" />
+    <path d="M15.3,0H9.68L9.36,2.34h3.27L12.37,4.1H9.13L8.88,5.93,10.83,8.2h3.32L12.64,6.45h1.75Z" />
+  </g>
+</svg>
+
+  </div>
+</div>
+    <div id="root"></div>
+    <script>
+  window.addEventListener("load", () => {
+  const loader = document.getElementById("loader");
+  if (loader) {
+    setTimeout(() => {
+      loader.classList.add("slide-up");
+      loader.addEventListener("transitionend", () => {
+        loader.style.display = "none";
+      });
+    }, 2000);
+  }
+});
+</script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script");
+        var s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/68922be6205309192bd92075/1j1tfmvk4';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    }, 2000); // Delay: 3000 ms = 3 seconds
+  });
+</script>
+
+<!--End of Tawk.to Script-->
+<script>
+  window.addEventListener('load', () => {
+    // Wait 3 seconds after page load
+    setTimeout(() => {
+      const loader = document.querySelector('.loader-wrapper');
+
+      // Add slide-up class to trigger transition
+      loader.classList.add('slide-up');
+
+      // Remove "loading" class from body to reveal Tawk.to and other content
+      document.body.classList.remove('loading');
+
+      // After slide-up transition ends (800ms), remove loader from view completely
+      setTimeout(() => {
+        loader.style.display = 'none';
+      }, 1000); // match your transition time + buffer
+    }, 3000); // wait 3 seconds before starting slide-up
+  });
+</script>
+
+
+
+  </body>
+</html>
