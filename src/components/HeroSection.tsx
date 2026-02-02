@@ -22,7 +22,7 @@ const HeroSection = () => {
   id="home"
   className="min-h-screen bg-palette-dark text-palette-gold flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-16"
   style={{
-    backgroundImage: 'linear-gradient(to top, #01708e, rgba(0, 0, 0, 0)), url(/lovable-uploads/pozadina.jpg)',
+    backgroundImage: `linear-gradient(to top, #01708e, rgba(0, 0, 0, 0)), url(${import.meta.env.BASE_URL}lovable-uploads/pozadina.jpg)`, 
     backgroundSize: 'cover',
     backgroundPosition: 'center'
   }}
@@ -57,7 +57,7 @@ const HeroSection = () => {
         
           <div className="lg:w-1/2 lg:pl-8 flex flex-col items-center lg:items-end justify-between h-full">
               <div className="w-64 h-80 sm:w-80 sm:h-96 flex items-end justify-center mb-0 mt-auto">
-                <img src="/lovable-uploads/Ja.png" alt="Ja" className="w-full h-auto object-contain mix-blend-hard-light opacity-90" />
+                <img src={`${import.meta.env.BASE_URL}lovable-uploads/Ja.png`} alt="Ja" className="w-full h-auto object-contain mix-blend-hard-light opacity-90" />
               </div>
 
               <div ref={buttonAnimation.ref}>

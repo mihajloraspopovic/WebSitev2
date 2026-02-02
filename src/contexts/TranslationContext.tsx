@@ -18,14 +18,14 @@ const translations = {
     'nav.skills': 'Skills',
     'nav.career': 'Career Path',
     'nav.contact': 'CONTACT',
-    
+
     // Hero Section
     'hero.greeting': 'Hello & Welcome',
     'hero.name': 'Mihajlo Raspopovic',
     'hero.title': 'Full-Stack Developer & UI/UX Designer',
     'hero.description': 'Passionate about creating innovative digital solutions that bridge the gap between functionality and aesthetics.',
     'hero.cta': 'FOLLOW ME',
-    
+
     // Projects Section
     'projects.title': 'MY PROJECTS',
     'projects.project1.title': 'IMAGE RECOGNITION\nPYTHON',
@@ -42,22 +42,22 @@ const translations = {
     // Design Section
     'design.title': 'MY DESIGNS',
     'design.project1.title': 'PORTFOLIO DESIGN',
-'design.project1.description': 'I made this design in Adobe XD as one of\nmy first projects. I kept it simple, used a\nbright color, and organized the sections\nto show my projects, education, and skills.',
-'design.project1.subtitle1': 'PORTFOLIO WEB PAGE\nDESIGN',
-'design.project1.subtitle2': 'HTML, CSS & JS',
+    'design.project1.description': 'I made this design in Adobe XD as one of\nmy first projects. I kept it simple, used a\nbright color, and organized the sections\nto show my projects, education, and skills.',
+    'design.project1.subtitle1': 'PORTFOLIO WEB PAGE\nDESIGN',
+    'design.project1.subtitle2': 'HTML, CSS & JS',
 
-'design.project2.title': 'TENNIS VISIT CARD',
-'design.project2.description': 'Made a two-sided business card in\nIllustrator for a tennis coach. Drew\ncustom graphics, added clear text in two\nlanguages, included a QR code, and kept\nthe layout simple and easy to read.',
-'design.project2.subtitle1': 'BUSINESS CARD\nDESIGN',
-'design.project2.subtitle2': 'ADOBE ILLUSTRATOR',
+    'design.project2.title': 'TENNIS VISIT CARD',
+    'design.project2.description': 'Made a two-sided business card in\nIllustrator for a tennis coach. Drew\ncustom graphics, added clear text in two\nlanguages, included a QR code, and kept\nthe layout simple and easy to read.',
+    'design.project2.subtitle1': 'BUSINESS CARD\nDESIGN',
+    'design.project2.subtitle2': 'ADOBE ILLUSTRATOR',
 
-    
+
     // About Section
     'about.title': 'ABOUT',
     'about.timeline': 'TIMELINE',
     'about.education': 'EDUCATION',
     'about.experience': 'EXPERIENCE',
-    'about.employee': 'Endcode employee',
+    'about.employee': 'Open for projects',
     'about.location': 'Location: Bar/Podgorica',
     'about.language': 'Language: English and Serbian',
     'about.greeting': 'HELLO!\nI\'M MIHAJLO.',
@@ -69,13 +69,13 @@ const translations = {
     'about.graphic_designer': 'GRAPHIC DESIGNER',
     'about.graphic_designer_period': '2018-NOW',
     'about.endcode': 'ENDCODE',
-    'about.endcode_period': '2025-NOW',
-    
+    'about.endcode_period': 'Jul 2025 - Jan 2026',
+
     // Skills Section
     'skills.title': 'MY SKILLS',
     'skills.coding': 'Coding',
     'skills.software': 'Software',
-    
+
     // Career Path Section
     'career.title': 'CAREER PATH',
     'career.web_dev.title': 'Web Development',
@@ -86,7 +86,7 @@ const translations = {
     'career.software_dev.content': 'Python has become a major part of my programming work. After finishing a course at Developers Lab, I started using it for projects like building web apps with Django and doing data analysis with Pandas. I\'m focused on writing clean, efficient code and always looking for ways to get better. You can find examples of my work on my portfolio and GitHub.',
     'career.ui_ux.title': 'UI/UX Design',
     'career.ui_ux.content': 'I\'ve designed a few website layouts using Adobe XD, focusing on simple visuals and easy navigation. I also created a menu interface for a Flash game in Adobe Animate, adding interactive elements to make it easier to use. These projects helped me understand basic design principles and how to make interfaces that are clear and user-focused.',
-    
+
     // Contact Section
     'contact.title': 'GET IN TOUCH',
     'contact.description': 'Ready to bring your ideas to life? Let\'s discuss your next project and create something amazing together.',
@@ -100,7 +100,7 @@ const translations = {
     'contact.phone_label': 'PHONE',
     'contact.availability_label': 'AVAILABILITY',
     'contact.availability_text': 'Open for projects',
-    
+
     // Footer
     'footer.motivation': 'I LOVE WORKING ON CHALLENGING PROJECTS',
     'footer.talk': 'Let\'s talk!',
@@ -122,14 +122,14 @@ const translations = {
     'nav.skills': 'Veštine',
     'nav.career': 'Karijera',
     'nav.contact': 'KONTAKT',
-    
+
     // Hero Section
     'hero.greeting': 'Zdravo & Dobrodošli',
     'hero.name': 'Mihajlo Raspopović',
     'hero.title': 'Full-Stack Developer i UI/UX Dizajner',
     'hero.description': 'Strastan u kreiranju inovativnih digitalnih rešenja koja spajaju funkcionalnost i estetiku.',
     'hero.cta': 'ZAPRATI ME',
-    
+
     // Projects Section
     'projects.title': 'MOJI PROJEKTI',
     'projects.project1.title': 'PREPOZNAVANJE SLIKA\nPYTHON',
@@ -146,21 +146,21 @@ const translations = {
     // Design Section
     'design.title': 'MOJ DIZAJN',
     'design.project1.title': 'PORTFOLIO DIZAJN',
-'design.project1.description': 'Napravio sam ovaj dizajn u Adobe XD kao jedan od prvih projekata. Održao sam ga jednostavnim, koristio svetle boje i organizovao sekcije da prikažem svoje projekte, obrazovanje i veštine.',
-'design.project1.subtitle1': 'PORTFOLIO WEB STRANICA\nDIZAJN',
-'design.project1.subtitle2': 'HTML, CSS & JS',
+    'design.project1.description': 'Napravio sam ovaj dizajn u Adobe XD kao jedan od prvih projekata. Održao sam ga jednostavnim, koristio svetle boje i organizovao sekcije da prikažem svoje projekte, obrazovanje i veštine.',
+    'design.project1.subtitle1': 'PORTFOLIO WEB STRANICA\nDIZAJN',
+    'design.project1.subtitle2': 'HTML, CSS & JS',
 
-'design.project2.title': 'TENIS POSLOVNA KARTA',
-'design.project2.description': 'Napravio sam dvostranu poslovnu kartu u\nIllustratoru za tenis trenera. Crtao sam\nprilagođene grafike, dodao jasan tekst na dva jezika, uključio QR kod i održao\nraspored jednostavnim i lakim za čitanje.',
-'design.project2.subtitle1': 'POSLOVNA KARTA\nDIZAJN',
-'design.project2.subtitle2': 'ADOBE ILLUSTRATOR',
-    
+    'design.project2.title': 'TENIS POSLOVNA KARTA',
+    'design.project2.description': 'Napravio sam dvostranu poslovnu kartu u\nIllustratoru za tenis trenera. Crtao sam\nprilagođene grafike, dodao jasan tekst na dva jezika, uključio QR kod i održao\nraspored jednostavnim i lakim za čitanje.',
+    'design.project2.subtitle1': 'POSLOVNA KARTA\nDIZAJN',
+    'design.project2.subtitle2': 'ADOBE ILLUSTRATOR',
+
     // About Section
     'about.title': 'O MENI',
     'about.timeline': 'VREMENSKA LINIJA',
     'about.education': 'OBRAZOVANJE',
     'about.experience': 'ISKUSTVO',
-    'about.employee': 'Zaposlenik Endcode',
+    'about.employee': 'Otvoren za projekte',
     'about.location': 'Lokacija: Bar/Podgorica',
     'about.language': 'Jezik: Engleski i Srpski',
     'about.greeting': 'ZDRAVO!\nJA SAM MIHAJLO.',
@@ -172,13 +172,13 @@ const translations = {
     'about.graphic_designer': 'GRAFIČKI DIZAJNER',
     'about.graphic_designer_period': '2018-SADA',
     'about.endcode': 'ENDCODE',
-    'about.endcode_period': '2025-SADA',
-    
+    'about.endcode_period': 'Jul 2025 - Jan 2026',
+
     // Skills Section
     'skills.title': 'MOJE VEŠTINE',
     'skills.coding': 'Programiranje',
     'skills.software': 'Softver',
-    
+
     // Career Path Section
     'career.title': 'KARIJERA',
     'career.web_dev.title': 'Web Development',
@@ -189,7 +189,7 @@ const translations = {
     'career.software_dev.content': 'Python je postao glavni deo mog programskog rada. Nakon završetka kursa u Developers Lab-u, počeo sam da ga koristim za projekte kao što je pravljenje web aplikacija sa Django-om i analiza podataka sa Pandas-om. Fokusiram se na pisanje čistog, efikasnog koda i uvek tražim načine da se poboljšam. Možete pronaći primere mog rada na portfoliju i GitHub-u.',
     'career.ui_ux.title': 'UI/UX dizajn',
     'career.ui_ux.content': 'Dizajnirao sam nekoliko layout-a veb sajtova koristeći Adobe XD, fokusirajući se na jednostavne vizuele i laku navigaciju. Takođe sam kreirao meni interfejs za Flash igru u Adobe Animate-u, dodajući interaktivne elemente da je učinim lakšom za korišćenje. Ovi projekti su mi pomogli da razumem osnovne principe dizajna i kako da napravim interfejse koji su jasni i usmereni na korisnika.',
-    
+
     // Contact Section
     'contact.title': 'STUPIMO U KONTAKT',
     'contact.description': 'Spreman da oživiš svoje ideje? Razgovarajmo o tvom sledećem projektu i kreirajmo nešto neverovatno zajedno.',
@@ -203,7 +203,7 @@ const translations = {
     'contact.phone_label': 'TELEFON',
     'contact.availability_label': 'DOSTUPNOST',
     'contact.availability_text': 'Otvoren za projekte',
-    
+
     // Footer
     'footer.motivation': 'VOLIM DA RADIM NA IZAZOVNIM PROJEKTIMA',
     'footer.talk': 'Razgovarajmo!',

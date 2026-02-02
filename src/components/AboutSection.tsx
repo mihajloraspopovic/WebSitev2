@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-
+import { Link } from 'react-router-dom';
+import { FaArrowRight } from 'react-icons/fa';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { useTranslation } from '../contexts/TranslationContext';
 
@@ -41,7 +42,7 @@ const AboutSection = () => {
   id="about" 
   className="min-h-screen text-palette-gold flex items-center justify-center px-4 sm:px-6 lg:px-8 py-16" 
   style={{
-    backgroundImage: 'linear-gradient(to bottom, #061229 0%,rgba(0,0,0,0.0),rgba(0,0,0,0.0) , rgba(6, 18, 41, 1)), url(/lovable-uploads/pozadina2.jpg)',
+    backgroundImage: `linear-gradient(to bottom, #061229 0%,rgba(0,0,0,0.0),rgba(0,0,0,0.0) , rgba(6, 18, 41, 1)), url(${import.meta.env.BASE_URL}lovable-uploads/pozadina2.jpg)`,
     backgroundSize: 'cover',
     backgroundPosition: 'center'
   }}
@@ -57,8 +58,8 @@ const AboutSection = () => {
               
               <div className="flex items-start space-x-4 mb-6">
                 <div className="w-16 h-16 bg-palette-gold/20 rounded-lg flex items-center justify-center flex-shrink-0">
-  <img src="/lovable-uploads/me.jpg" alt="Me" className="w-full h-full object-cover rounded-lg" />
-</div>
+                  <img src={`${import.meta.env.BASE_URL}lovable-uploads/me.jpg`} alt="Me" className="w-full h-full object-cover rounded-lg" />
+                </div>
                 <div className="space-y-2">
                   <div className="text-xs text-palette-gold/60">
                     {t('about.employee')}
@@ -80,6 +81,16 @@ const AboutSection = () => {
                 <p className="font-poppins text-sm leading-relaxed text-paragraph-color">
                   {t('about.description')}
                 </p>
+                
+                <div className="flex justify-start mt-6">
+                  <Link 
+                    to="/documentation"
+                    className="inline-flex items-center px-6 py-3 bg-palette-blue hover:bg-palette-blue/80 text-white font-poppins font-semibold rounded-lg transition-all duration-300 hover:scale-105 shadow-lg"
+                  >
+                    View Documentation
+                    <FaArrowRight className="ml-2" />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
